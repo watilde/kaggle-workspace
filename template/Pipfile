@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+black = "*"
+
+[packages]
+pandas = "*"
+numpy = "*"
+
+[requires]
+python_version = "3.6"
+
+[scripts]
+build = "python3 ./src/main.py"
+format = "black src"
