@@ -17,10 +17,10 @@ Options:
   -n: Competition name                         [String]
 
 Example:
-  ./scripts/init.sh -t=completed -n=titanic
-  ./scripts/downlaod.sh -t=completed -n=titanic
+  ./scripts/init.sh -t completed -n titanic
+  ./scripts/downlaod.sh -t completed -n titanic
 
 # Code in completed/titanic and output kaggle/working/submission.csv
 
-  ./scripts/submit.sh -t=completed -n=titanic
+  ./scripts/submit.sh -t completed -n titanic
 ```

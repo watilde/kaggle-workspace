@@ -21,4 +21,5 @@ done
 
 shift $(($OPTIND - 1))
 
+mkdir -p "$TYPE_VALUE/$NAME_VALUE";
 cp -r template "$TYPE_VALUE/$NAME_VALUE";
